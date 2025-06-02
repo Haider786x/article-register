@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter_form</title>
+    <script src="./main.js" defer></script>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent_img">
+        <img
+          src="./assets/images/illustration-sign-up-mobile.svg"
+          alt="form_pic"
+          id="image"
+        />
+      </div>
+
+      <div class="content">
+        <h1 class="text1">Stay Updated!</h1>
+        <p class="text2">
+          Join 60,000+ product managers receiving <br />
+          monthly updates on:
+        </p>
+        <ul class="points">
+          <li>
+            Product discovery and building what <br />
+            matters
+          </li>
+          <li>
+            Measuring to ensure updates are a <br />
+            success
+          </li>
+          <li>And much more!</li>
+        </ul>
+
+        <form action="/action_page.php">
+          <label for="email">
+            <strong class="email">Email address</strong></label
+          ><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@ompany.com"
+          /><br />
+        </form>
+        <button class="submit_email">Subscribe to monthly newsletter</button>
+      </div>
+    </div>
+  </body>
+</html>
