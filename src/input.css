@@ -17,7 +17,7 @@ body {
   @apply bg-white m-0 p-0 overflow-hidden sm:bg-[#36384e];
 }
 .container {
-  @apply h-[100%] w-full sm:flex sm:flex-row-reverse  sm:rounded-3xl sm:w-[90vw] sm:h-[70vh] bg-white justify-center items-center  sm:mt-30;
+  @apply h-[100%] w-full sm:flex items-center sm:flex-row-reverse  sm:rounded-3xl sm:w-[90vw] sm:h-[70vh] bg-white    sm:mt-30;
 }
 .parent_img {
   @apply bg-blue-300 h-full flex sm:justify-center sm:items-center sm:max-md:h-[400px];
