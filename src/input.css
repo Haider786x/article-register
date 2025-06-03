@@ -1,36 +1,6 @@
 @import "tailwindcss";
-@import url(https://fonts.google.com/specimen/Roboto);
-@font-face {
-  font-family: Robotobold;
-  src: url(C:\Users\lordx\Downloads\newsletter\assets\fonts\Roboto-Bold.ttf);
-}
-@font-face {
-  font-family: RobotoRegular;
-  src: url(C:\Users\lordx\Downloads\newsletter\assets\fonts\Roboto-Regular.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @theme {
-  --breakpoint-sm: 37rem;
-}
-
-body {
-  @apply bg-white m-0 p-0 overflow-hidden sm:bg-[#36384e];
-}
-.container {
-  @apply h-[100%] w-full sm:flex items-center sm:flex-row-reverse  sm:rounded-3xl sm:w-[90vw] sm:h-[70vh] bg-white    sm:mt-30;
-}
-.parent_img {
-  @apply bg-blue-300 h-full flex sm:justify-center sm:items-center sm:max-md:h-[400px];
-}
-#image {
-  @apply w-[100%] h-auto  sm:h-[90%];
-}
-.content {
-  @apply h-fit   w-auto sm:w-[50vw];
-}
-.text1 {
-  @apply text-black font-[700] text-3xl  font-[Robotobold];
-}
-.points {
-  @apply list-disc list-inside font-[RobotoRegular];
+  --font-roboto: "Roboto", sans-serif;
 }
